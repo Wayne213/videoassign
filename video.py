@@ -10,10 +10,7 @@ Original file is located at
 import cv2 
 import os
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-myvideoes=cv2.VideoCapture('/content/drive/My Drive/mypyvid.mp4')
+myvideoes=cv2.VideoCapture('mypyvid.mp4')
 
 try:  
 	if not os.path.exists('anesuteam'): 
